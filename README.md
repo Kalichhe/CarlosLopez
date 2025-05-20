@@ -39,3 +39,35 @@ Se valorará especialmente:
 - La separación de responsabilidades entre clases
 - La claridad y mantenibilidad del código resultante
 - La UI del detalle del personaje.
+
+## **Explicación de las mejoras**
+
+## 1. Gestión de estado moderna con Riverpod
+
+- Se utilizó Riverpod para una gestión de estado reactiva, escalable y desacoplada, reemplazando enfoques menos eficientes como setState.
+
+## 2. Aplicación del patrón MVC
+
+- Se separaron claramente los modelos, vistas y controladores, mejorando la organización, escalabilidad y facilidad de prueba.
+
+## 3. Separación de responsabilidade.
+
+- Cada clase cumple una única función:
+
+  - Modelo: estructura de datos
+
+  - Controlador: lógica de negocio
+
+  - Vista: presentación
+
+## 4. Consumo eficiente de API
+
+- El CharacterController maneja la obtención de datos de la API de forma asíncrona, gestionando estados de carga y error.
+
+## 5. Interfaz de usuario modular y reactiva
+
+- Uso de widgets reutilizables (como CustomAppBar), navegación intuitiva y componentes interactivos como BottomNavigationBar.
+
+## 6. Código limpio y mantenible
+
+- Organización clara por archivos (modelos, vistas, controladores, widgets) y aplicación de buenas prácticas de Flutter y Dart.
